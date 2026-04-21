@@ -1,0 +1,16 @@
+{
+  "name": "intent-tracker-scraper",
+  "version": "1.0.0",
+  "description": "Scraper Reddit + pipeline IA pour Intent Tracker",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.4.1",
+    "node-fetch": "^3.3.2"
+  }
+}
